@@ -1,6 +1,6 @@
 # Reverse Captcha
 
-You have been kidnapped by Terminators! In some dark twist of fate, they have agreed to let you free if you can prove you are **NOT** at human by solving a captcha as fast as a machine. Luckily for you, you find a dusty old PC in the corner and get to work.
+You have been kidnapped by Terminators! In some dark twist of fate, they have agreed to let you free if you can prove you are **NOT** a human by solving a captcha as fast as a machine. Luckily for you, you find a dusty old PC in the corner and get to work.
 
 The captcha requires you to review a sequence of digits (your puzzle input) and find the sum of all digits that match the next digit in the list. The list is circular, so the digit after the last digit is the first digit in the list.
 
