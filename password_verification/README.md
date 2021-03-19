@@ -22,5 +22,22 @@ In the above example, `2` passwords are valid. The middle password, `cdefg`, is 
 
 Given our input, how many passwords are valid according to their policies?
 
-## Credits
+
+## Part II
+
+Now the French national criminal-investigation police bureau is at your front door, asking to speak to you. Despite your best efforts, the validation you've done isn't working for your clients!
+
+You remember you were using the wrong rules!
+
+Each policy actually describes two positions in the password, where `1` means the first character, `2` means the second character, and so on. (Be careful; Depository Bank of Zurich policies have no concept of "index zero"!) Exactly one of these positions must contain the given letter. Other occurrences of the letter are irrelevant for the purposes of policy enforcement.
+
+Given the same example list from above:
+
+`1-3 a: abcde` is valid: position `1` contains `a` and position `3` does not.
+`1-3 b: cdefg` is invalid: neither position `1` nor position `3` contains `b`.
+`2-9 c: ccccccccc` is invalid: both position `2` and position `9`contain `c`.
+
+How many passwords are valid according to the new interpretation of the policies?
+
+### Credits
 Original problem adapted from [Advent of Code 2020](https://adventofcode.com/2020/day/2) 
